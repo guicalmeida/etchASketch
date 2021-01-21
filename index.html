@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <title>Etch A Sketch</title> 
+    </head>
+    <body>
+        <h1>Etch a Sketch</h1>
+        <div class="game">
+            <div id="buttons">
+                <button class="button" value="1" id="black">black</button>
+                <button class="button" value="2" id="grayscale">increasingly black</button>
+                <button class="button" value="3" id="rainbow">rainbow</button>
+                <button class="button" value="4" id="eraser">eraser</button>
+            </div>
+            <div class="gridContainer">
+                <div class="grid"></div>
+            </div>
+            <input type="range" min="5" max="50" value="25" class="slider">
+            <button id="clear">clear</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
